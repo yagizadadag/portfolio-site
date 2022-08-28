@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+  font-size: 2.6rem;
+  font-family: "Manrope", sans-serif;
+  color: white;
+  background-color: black;
+}
+.page-header a {
+  color: #CCFF00;
+  transition: 0.3s;
+}
+.page-header a:hover {
+  color: white;
+  transform: scale(0.98);
+}
+.page-header .contact-links {
+  margin-left: auto;
+  padding: 10rem;
+}
+.page-header .contact-links .link {
+  padding-left: 5rem;
+  color: white;
+  display: inline-block;
+}
+.page-header .contact-links .link:hover {
+  color: #CCFF00;
+  transform: translateX(-0.3rem);
+}
+
+.container {
+  height: 85vh;
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 5rem;
+  font-family: "Manrope", sans-serif;
+}
+.container .skills h2 {
+  font-size: 3rem;
+  color: white;
+  border-bottom: 1px solid #CCFF00;
+  width: 90%;
+  padding-bottom: 1rem;
+}
+.container .skills ul {
+  padding-top: 0.5rem;
+}
+.container .skills ul li {
+  margin-top: 3rem;
+  list-style-type: none;
+  font-size: 1.5rem;
+  color: white;
+}
+.container .projects {
+  display: flex;
+  flex-flow: column;
+}
+.container .projects h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+  border-bottom: 1px solid #CCFF00;
+  padding-bottom: 1rem;
+}
+.container .projects .project-links {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  margin-top: 3rem;
+}
+.container .projects .project-links .project-content {
+  color: white;
+}
+.container .projects .project-links .project-content a {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.container .projects .project-links .project-content a:hover {
+  color: rgb(121, 139, 56);
+  transform: scale(0.98);
+}
+.container .projects .project-links .project-content a i {
+  margin-left: 1rem;
+  transition: 0.3s;
+}
+.container .projects .project-links .project-content a i:hover {
+  transform: translateX(-0.3rem);
+}
+.container .projects .project-links .project-content p {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.project-img {
+  height: 20rem;
+  width: auto;
+  border-radius: 1rem;
+}
+
+.contact-me {
+  font-family: "Manrope", sans-serif;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #CCFF00;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
